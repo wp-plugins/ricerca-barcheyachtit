@@ -2,7 +2,7 @@
 /*
 Plugin Name: Ricerca Barcheyacht.it
 Description: Custom widget per la ricerca su Barcheyacht.it. Non viene fornito alcun supporto dallo sviluppatore.
-Version: 0.5
+Version: 0.6
 */
 /* Start Adding Functions Below this Line */
 
@@ -59,13 +59,13 @@ border-radius: 9px;
 display: inline-block;
 margin-top: 5px;
 cursor: pointer;
-color: #ffffff !important;
+color: #fff !important;
 font-family: Trebuchet MS;
-font-size: 0.9em;
+font-size: 10pt;
 font-weight: bold;
-padding: 3px 20px;
+padding: 6px 17px;
 text-decoration: none;
-text-shadow: 0px 1px 0px #000000;
+text-shadow: 0px 1px 0px #000;
 }
 .bybtn:hover {
   background-color:#6b6b6b;

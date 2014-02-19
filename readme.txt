@@ -28,7 +28,7 @@ NOTA: Non viene fornito alcun supporto dallo sviluppatore.
 2. Attiva il plugin tramite il menu 'Plugin' di WordPress
 3. Attiva il widget nella sezione 'Widget' di Wordpress
 
-== Screenshot ==
+== Screenshots ==
 
 1. L'immagine 'screenshot1.png' mostra il front-end del widget
 2. L'immagine 'screenshot2.png' mostra il back-end del widget

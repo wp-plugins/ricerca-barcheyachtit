@@ -88,7 +88,7 @@ class wpb_widget extends WP_Widget {
       <a style='margin: 0 auto; cursor: pointer;' id='by_cerca' >Cerca</a>
     </div>
   </p>
-</center>";
+</div>";
 echo __($testo, 'wpb_widget_domain' );
 echo $args['after_widget'];
 }

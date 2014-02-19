@@ -2,6 +2,7 @@
 /*
 Plugin Name: Ricerca Barcheyacht.it
 Description: Custom widget per la ricerca su Barcheyacht.it. Non viene fornito alcun supporto dallo sviluppatore.
+Version: 0.3
 */
 /* Start Adding Functions Below this Line */
 
@@ -45,34 +46,40 @@ class wpb_widget extends WP_Widget {
       echo $args['before_title'] . $title . $args['after_title'];
 
 // This is where you run the code and display the output
-    echo "<div style='width: 90%; margin-left: auto; margin-right: auto; text-align: center;'>";
+    echo "<style type='text/css'>
+  .bywidget {width: 90%; margin-left: auto; margin-right: auto; text-align: center;}
+  .bywidget li { height: 27px; }
+  .bylogo { margin-bottom: 5px; }
+  .bywidget select { width: 100%; margin-bottom: 5px; }
+  </style>";
 
-    $logo = "<img src='" . plugin_dir_url(__FILE__) . "logo.png'></img>";
+    echo "<div class='bywidget'>";
+    $logo = "<img class='bylogo' src='" . plugin_dir_url(__FILE__) . "logo.png'></img>";
 
     if ($checkboxL) echo $logo;
     
-    $testo = "<p>
-    <select style='width: 100%;' id='by_dove' name='dove' class='input-xlarge'>
+    $testo = "<ul><li>
+    <select id='by_dove' name='dove' class='input-xlarge'>
       <option value=''>Dove vuoi andare?</option>   
     </select>
-  </p>
+  </li>
 
-  <p>
-    <select style='width: 100%;' id='by_tipo' name='tipo' class='input-xlarge'>
+  <li>
+    <select id='by_tipo' name='tipo' class='input-xlarge'>
       <option value=''>Con che imbarcazione?</option>
       <option value='motore'>Motore</option>
       <option value='vela'>Vela</option>
     </select>
-  </p>
+  </li>
 
-  <p>
-    <select style='width: 100%;' id='by_periodo' name='periodo' class='input-xlarge'>
+  <li>
+    <select id='by_periodo' name='periodo' class='input-xlarge'>
       <option value=''>In che periodo?</option>
     </select>
-  </p>
+  </li>
 
-  <p>	
-    <select style='width: 100%;' id='by_posti_letto' name='posti_letto' class='input-xlarge'>
+  <li>  
+    <select id='by_posti_letto' name='posti_letto' class='input-xlarge'>
       <option value=''>Quanti siete?</option>
       <option value='da_1_a_12'>1</option>
       <option value='da_2_a_12'>2</option>
@@ -80,14 +87,14 @@ class wpb_widget extends WP_Widget {
       <option value='da_4_a_12'>4</option>
       <option value='da_5_a_12'>5+</option>
     </select>
-  </p>
+  </li>
 
-  <p>
-    <div class='friendly_button friendly_button_medium friendly_button_black friendly_button_less_round friendly_button_none'>
-      <a style='margin: 0 auto; cursor: pointer;' id='by_cerca' >Cerca</a>
-    </div>
-  </p>
-</center>";
+  <li>
+    <!-- <div class='friendly_button friendly_button_medium friendly_button_black friendly_button_less_round friendly_button_none'> -->
+      <button style='margin: 0 auto; cursor: pointer;' id='by_cerca' >Cerca</button>
+   <!-- </div> -->
+  </li></ul>
+</div>";
 echo __($testo, 'wpb_widget_domain' );
 echo $args['after_widget'];
 }
@@ -124,7 +131,7 @@ public function update( $new_instance, $old_instance ) {
 
 // Register and load the widget
 function wpb_load_widget() {
-	register_widget( 'wpb_widget' );
+  register_widget( 'wpb_widget' );
 }
 add_action( 'widgets_init', 'wpb_load_widget' );
 

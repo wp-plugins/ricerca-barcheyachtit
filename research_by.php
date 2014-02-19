@@ -2,7 +2,7 @@
 /*
 Plugin Name: Ricerca Barcheyacht.it
 Description: Custom widget per la ricerca su Barcheyacht.it. Non viene fornito alcun supporto dallo sviluppatore.
-Version: 0.4
+Version: 0.5
 */
 /* Start Adding Functions Below this Line */
 
@@ -51,38 +51,24 @@ class wpb_widget extends WP_Widget {
   .bywidget li { height: 27px; }
   .bylogo { margin-bottom: 5px; }
   .bywidget select { width: 100%; margin-bottom: 5px; }
-  .bybtn {
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5c5c5c), color-stop(1, #616161));
-  background:-moz-linear-gradient(top, #5c5c5c 5%, #616161 100%);
-  background:-webkit-linear-gradient(top, #5c5c5c 5%, #616161 100%);
-  background:-o-linear-gradient(top, #5c5c5c 5%, #616161 100%);
-  background:-ms-linear-gradient(top, #5c5c5c 5%, #616161 100%);
-  background:linear-gradient(to bottom, #5c5c5c 5%, #616161 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5c5c5c', endColorstr='#616161',GradientType=0);
-  background-color:#5c5c5c;
-  -moz-border-radius:21px;
-  -webkit-border-radius:21px;
-  border-radius:21px;
-  border:1px solid #ffffff;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Trebuchet MS;
-  font-size:17px;
-  font-weight:bold;
-  padding:22px 46px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #636363;
+.bybtn {
+background-color: #919191;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+display: inline-block;
+margin-top: 5px;
+cursor: pointer;
+color: #ffffff !important;
+font-family: Trebuchet MS;
+font-size: 0.9em;
+font-weight: bold;
+padding: 3px 20px;
+text-decoration: none;
+text-shadow: 0px 1px 0px #000000;
 }
 .bybtn:hover {
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #616161), color-stop(1, #5c5c5c));
-  background:-moz-linear-gradient(top, #616161 5%, #5c5c5c 100%);
-  background:-webkit-linear-gradient(top, #616161 5%, #5c5c5c 100%);
-  background:-o-linear-gradient(top, #616161 5%, #5c5c5c 100%);
-  background:-ms-linear-gradient(top, #616161 5%, #5c5c5c 100%);
-  background:linear-gradient(to bottom, #616161 5%, #5c5c5c 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#616161', endColorstr='#5c5c5c',GradientType=0);
-  background-color:#616161;
+  background-color:#6b6b6b;
 }
 .bybtn:active {
   position:relative;
@@ -128,7 +114,7 @@ class wpb_widget extends WP_Widget {
 
   <li>
     <!-- <div class='friendly_button friendly_button_medium friendly_button_black friendly_button_less_round friendly_button_none'> -->
-      <button class='bybtn' id='by_cerca' >Cerca</button>
+      <a href='#' class='bybtn' id='by_cerca'>Cerca</a>
    <!-- </div> -->
   </li></ul>
 </div>";

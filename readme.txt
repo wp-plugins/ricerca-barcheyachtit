@@ -20,8 +20,6 @@ in modo dinamico, tramite Javascript con una chiamata POST.
 Al click del pulsante "Ricerca" si apre una nuova finestra
 del sito www.barcheyacht.it con i risultati della ricerca.
 
-NOTA: Non viene fornito alcun supporto dallo sviluppatore.
-
 == Installation ==
 
 1. Carica la cartella `ricerca-barcheyacht` in `/wp-content/plugins/`

@@ -32,8 +32,3 @@ NOTA: Non viene fornito alcun supporto dallo sviluppatore.
 
 1. L'immagine 'screenshot1.png' mostra il front-end del widget
 2. L'immagine 'screenshot2.png' mostra il back-end del widget
-
-== Changelog ==
-
-= 1.0 =
-* Prima versione

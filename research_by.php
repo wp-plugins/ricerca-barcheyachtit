@@ -45,20 +45,20 @@ class wpb_widget extends WP_Widget {
       echo $args['before_title'] . $title . $args['after_title'];
 
 // This is where you run the code and display the output
-    echo "<center>";
+    echo "<div style='width: 90%; margin-left: auto; margin-right: auto; text-align: center;'>";
 
     $logo = "<img src='" . plugin_dir_url(__FILE__) . "logo.png'></img>";
 
     if ($checkboxL) echo $logo;
     
     $testo = "<p>
-    <select style='width: 90%;' id='by_dove' name='dove' class='input-xlarge'>
+    <select style='width: 100%;' id='by_dove' name='dove' class='input-xlarge'>
       <option value=''>Dove vuoi andare?</option>   
     </select>
   </p>
 
   <p>
-    <select style='width: 90%;' id='by_tipo' name='tipo' class='input-xlarge'>
+    <select style='width: 100%;' id='by_tipo' name='tipo' class='input-xlarge'>
       <option value=''>Con che imbarcazione?</option>
       <option value='motore'>Motore</option>
       <option value='vela'>Vela</option>
@@ -66,13 +66,13 @@ class wpb_widget extends WP_Widget {
   </p>
 
   <p>
-    <select style='width: 90%;' id='by_periodo' name='periodo' class='input-xlarge'>
+    <select style='width: 100%;' id='by_periodo' name='periodo' class='input-xlarge'>
       <option value=''>In che periodo?</option>
     </select>
   </p>
 
   <p>	
-    <select style='width: 90%;' id='by_posti_letto' name='posti_letto' class='input-xlarge'>
+    <select style='width: 100%;' id='by_posti_letto' name='posti_letto' class='input-xlarge'>
       <option value=''>Quanti siete?</option>
       <option value='da_1_a_12'>1</option>
       <option value='da_2_a_12'>2</option>

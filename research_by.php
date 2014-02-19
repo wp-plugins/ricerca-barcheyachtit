@@ -2,7 +2,7 @@
 /*
 Plugin Name: Ricerca Barcheyacht.it
 Description: Custom widget per la ricerca su Barcheyacht.it. Non viene fornito alcun supporto dallo sviluppatore.
-Version: 0.2
+Version: 0.3
 */
 /* Start Adding Functions Below this Line */
 

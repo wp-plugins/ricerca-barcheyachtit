@@ -39,7 +39,10 @@ jQuery(document).ready(function ($) {
 
     var action = base + zona + tipo + periodo + posti_letto;
 
-    window.location.href = action;
+    window.open(
+      action,
+      '_blank' // <- This is what makes it open in a new window.
+    );
   });
 
   //Popolazione dinamica select rotte navigazione

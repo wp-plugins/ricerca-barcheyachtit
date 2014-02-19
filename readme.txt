@@ -30,5 +30,5 @@ NOTA: Non viene fornito alcun supporto dallo sviluppatore.
 
 == Screenshots ==
 
-1. L'immagine 'screenshot1.png' mostra il front-end del widget
-2. L'immagine 'screenshot2.png' mostra il back-end del widget
+1. Front-end del widget 
+2. Back-end del widget

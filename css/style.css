@@ -46,7 +46,7 @@
     /* Size and position */
     position: relative;
     width: 80%;
-    margin: 0 auto 4px;
+    margin: 0 auto 4px auto !important;
     padding: 8px;
 
     /* Styles */

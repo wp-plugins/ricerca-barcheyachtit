@@ -2,7 +2,7 @@
 /*
 Plugin Name: Ricerca vacanze in barca
 Description: Custom widget per la ricerca di barche a noleggio nel portale Barcheyacht.it.
-Version: 1.2
+Version: 1.3
 */
 
 /* Start Adding Functions Below this Line */
@@ -76,7 +76,7 @@ class wpb_widget extends WP_Widget {
           </div>
           <div data-val="" class="wrapper-dropdown-by by_barca" tabindex="2">
             <span class="by_icona">&nbsp;</span>
-            <span class="by_txt">Con che imbarcazione?</span>
+            <span class="by_txt">Con che barca?</span>
             <span class="by_caret">&gt;</span>
             <ul class="by_dropdown">
               <li data-val="motore"><a href="#">Motore</a></li>

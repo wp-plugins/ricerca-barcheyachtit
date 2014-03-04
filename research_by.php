@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Ricerca Barcheyacht.it
+Plugin Name: Ricerca vacanze in barca
 Description: Custom widget per la ricerca di barche a noleggio nel portale Barcheyacht.it.
 Version: 1.0
 */

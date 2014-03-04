@@ -26,11 +26,6 @@ del sito www.barcheyacht.it con i risultati della ricerca.
 2. Attiva il plugin tramite il menu 'Plugin' di WordPress
 3. Attiva il widget nella sezione 'Widget' di Wordpress
 
-== Screenshot ==
+== Screenshots ==
 
 1. L'immagine 'screenshot-1.png' mostra il front-end del widget
-
-== Changelog ==
-
-= 1.0 =
-* Prima versione

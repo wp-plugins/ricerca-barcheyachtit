@@ -35,7 +35,7 @@ jQuery(document).ready(function ($) {
   };
 
   $(function() {
-    $('.wrapper-dropdown-by').each(function() {
+    $('.by_quando, .by_quanti, .by_barca').each(function() {
       var by_temp = new DropDown( $(this) );
     });
 
@@ -102,5 +102,6 @@ jQuery(document).ready(function ($) {
       html += '<li data-val="' + data[i].replace(/ /g,"_").toLowerCase() + '"><a href="#">' + data[i] + '</a></li>';
     }
     $('.by_dove .by_dropdown').append(html);
+    var by_temp = new DropDown( $('.by_dove') );
   });
 });

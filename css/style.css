@@ -136,11 +136,15 @@
     margin: 0 0 0 0;
     white-space: nowrap;
     width: 100%;
+    font-family: inherit;
+    font-weight: 400;
 }
 
 .by_dropdown li {
     color: inherit !important;
     line-height: inherit !important;
+    list-style: none;
+    border-bottom: none;
 }
 
 .wrapper-dropdown-by .by_dropdown li:first-of-type a {
@@ -230,6 +234,8 @@
 
 .by_power a {
     color: #f67060 !important;
+    font-family: inherit;
+    font-weight: 500;
 }
 
 .by_cerca {
@@ -253,6 +259,8 @@
     color: inherit !important;
     text-decoration: none;
     line-height: 30px;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 .by_cerca a i {

@@ -2,7 +2,7 @@
 /*
 Plugin Name: Ricerca vacanze in barca
 Description: Custom widget per la ricerca di barche a noleggio nel portale Barcheyacht.it.
-Version: 1.4
+Version: 1.5
 */
 
 /* Start Adding Functions Below this Line */

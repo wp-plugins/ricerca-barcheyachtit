@@ -81,7 +81,7 @@ jQuery(document).ready(function ($) {
     var periodo = (_periodo === '') ? '' : "periodo-" + _periodo + '/';
     var posti_letto = (_posti_letto === '') ? '' : "posti_letto-" + _posti_letto + '/';
 
-    var action = base + zona + tipo + periodo + posti_letto;
+    var action = base + zona + tipo + periodo + posti_letto + "?ref=plugin";
 
     window.open(action,'_blank');
   });

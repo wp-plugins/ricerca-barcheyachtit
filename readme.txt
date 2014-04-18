@@ -11,7 +11,8 @@ Il plugin permette l'aggiunta di un widget custom con le opzioni di ricerca del 
 
 == Description ==
 
-Il plugin permette l'aggiunta di un widget custom con le opzioni di ricerca sul sito Barcheyacht.it
+Con il plugin di Barcheyacht è possibile fornire ai propri utenti il servizio di ricerca delle vacanze in barca e delle barche a noleggio, tramite un accordo di partnership con barcheyacht si puo richiedere l'attivazione "dell'exchange revenue programme" e iniziare a guadagnare fin da subito: richiedi maggiori informazioni a info[at]barcheyacht.it
+
 E' possibile modificare il titolo del widget.
 
 Le opzioni di ricerca vengono parzialmente caricate direttamente dal sito www.barcheyacht.it

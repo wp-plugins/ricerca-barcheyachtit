@@ -99,7 +99,7 @@ jQuery(document).ready(function ($) {
     var html = '';
     var len = data.length;
     for (var i = 0; i< len; i++) {
-      html += '<li data-val="' + data[i].replace(/ /g,"_").toLowerCase() + '"><a href="#">' + data[i] + '</a></li>';
+      html += '<li data-val="' + data[i].replace(/ -? ?/g,"_").toLowerCase() + '"><a href="#">' + data[i] + '</a></li>';
     }
     $('.by_dove .by_dropdown').append(html);
     var by_temp = new DropDown( $('.by_dove') );

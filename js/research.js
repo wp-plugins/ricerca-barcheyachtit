@@ -70,7 +70,7 @@ jQuery(document).ready(function ($) {
   //Gestion pressione tasto "cerca"
   $( ".by_cerca" ).click(function( event ) {
     event.preventDefault();
-    var base = "http://www.barcheyacht.it/noleggio-barche/#!/ricerca/";
+    var base = "http://www.bluewago.it/noleggio-barche/#!/ricerca/";
     var _zona = $(".by_dove").attr('data-val');
     var _tipo = $(".by_barca").attr('data-val');
     var _periodo = $(".by_quando").attr('data-val');
@@ -95,7 +95,7 @@ jQuery(document).ready(function ($) {
   });
 
   
-  $.postJSON('http://www.barcheyacht.it/elenca_zone_navigazione', function(data){
+  $.postJSON('http://www.bluewago.it/elenca_zone_navigazione', function(data){
     var html = '';
     var len = data.length;
     for (var i = 0; i< len; i++) {
